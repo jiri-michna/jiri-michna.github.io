@@ -7,6 +7,7 @@
         border-collapse: collapse;
         padding: 5px;
         margin: 50px auto;
+        max-width: 400px;
         }
         th {
             background-color: #ffae6a;
@@ -26,6 +27,17 @@
         }
         .mein {
             margin-left: 20px;
+        }
+        .odsazeni {
+            padding-left: 20px;
+            margin: 0 0 0 0;
+        }
+        .dve_odsazeni {
+            padding-left: 40px;
+            margin: 0 0 0 0;
+        }
+        .html {
+            scroll-behavior: smooth;
         }
     </style>
     <meta charset="UTF-8">
@@ -48,6 +60,7 @@
 
     </div>
     <hr>
+    <details class="mein"> <summary>Odrůdy brambor</summary>
     <table>
         <thead>
             <tr>
@@ -87,9 +100,10 @@
             </tr>
         </tbody>
     </table>
+    </details>
     <hr>
     <div class="mein">
-    <details> 
+    <details class="scroll"> 
        <summary>Reference</summary>
             <ol> 
                 <li> <a href="https://cs.wikipedia.org/wiki/Lidl" target="_blank">Lidl Wikipedie</a> <br> </li>
@@ -99,8 +113,14 @@
                 <li> <a href="https://www.color-hex.com/color-palette/15900" target="_blank">Barevná paleta</a></li>
             </ol>
     </details>
-    <br>
-    <p>Naučil jsem se vytvořit jednoduchou webovou stránku v HTML. Vidím to pozitivně.</p>
+    <details class="scroll"> <summary>Pocit ohledně práce</summary>
+        <details class="odsazeni scroll"> <summary>První</summary>
+            <p class="dve_odsazeni">Naučil jsem se vytvořit jednoduchou webovou stránku v HTML. Vidím to pozitivně.</p>
+        </details>
+        <details class="odsazeni scroll"> <summary>Druhá</summary>
+            <p class="dve_odsazeni">Cítím se pozitivně.</p>
+        </details>
+    </details>
     </div>
 </body>
 </html>
