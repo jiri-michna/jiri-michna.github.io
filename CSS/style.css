@@ -22,7 +22,7 @@ td {
 .zluta {
         background-color: #ffd450;
     }    
-.mein, #navbar {
+.mein, #content {
         margin-left: 10px;
     }    
 .odsazeni {
@@ -33,6 +33,12 @@ td {
         padding-left: 40px;
         margin: 0 0 0 0;
     }        
-#navbar {
-    
+#navbar, #content {
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    background-color: #ffd450;
+}
+.nav {
+    width: 100vw;
 }
