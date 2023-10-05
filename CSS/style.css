@@ -41,3 +41,7 @@ td {
     background-color: #ffd450;
     width: 100vw;
 }
+.navhref {
+    color: black;
+    text-decoration: none;
+}
