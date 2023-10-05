@@ -1,0 +1,38 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 20px auto;
+    max-width: 400px;
+    
+    }
+th {
+        background-color: #ffae6a;
+        color: #633720;
+    }
+td {
+        color: #333333;
+    }    
+.typy {
+        background-color: #ffc284;
+    }    
+.cervena {
+        background-color: #ff6a6a;
+    }    
+.zluta {
+        background-color: #ffd450;
+    }    
+.mein, #navbar {
+        margin-left: 10px;
+    }    
+.odsazeni {
+        padding-left: 20px;
+        margin: 0 0 0 0;
+    }    
+.dve_odsazeni {
+        padding-left: 40px;
+        margin: 0 0 0 0;
+    }        
+#navbar {
+    
+}
