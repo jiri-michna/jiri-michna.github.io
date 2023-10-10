@@ -77,3 +77,38 @@ td {
         margin-top: 1rem;
     }
 }
+#showcase {
+    background: #333 url(../IMG/showcase.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.l-heading {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #633720;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #a1785d;
+}
