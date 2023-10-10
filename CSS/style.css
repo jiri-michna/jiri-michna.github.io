@@ -72,3 +72,8 @@ td {
     border-radius: 3px;
     background-color: #a1785d;
 }
+@media only screen and (max-width: 700px) {
+    #navbar ul {
+        margin-top: 1rem;
+    }
+}
