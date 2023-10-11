@@ -42,6 +42,7 @@ td {
     top: 0;
     background-color: #ffd450;
     width: 100vw;
+    max-width: 100%;
 }
 #navbar a{
     color: black;
