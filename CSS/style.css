@@ -77,6 +77,9 @@ td {
     #navbar ul {
         margin-top: 1rem;
     }
+    #navbar .titles {
+        max-width: fit-content;
+    }
 }
 #showcase {
     background: #333 url(../IMG/showcase.jpg) no-repeat center center/cover;
