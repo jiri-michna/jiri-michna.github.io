@@ -162,3 +162,49 @@ td {
 .py-3 {
     padding: 3rem 0;
 }
+.bg-light {
+    background: #fff;
+    color: #333;
+}
+.bg.dark {
+    background: #333;
+    color: #fff;
+}
+.p-1 {
+    padding: 1.5rem;
+}
+.p-2 {
+    padding: 2rem;
+}
+.p-3 {
+    padding: 3rem;
+}
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+#who {
+    display: flex;
+}
+#who div {
+    flex: 1;
+}
+#who .img-sazba {
+    background: url(../IMG/sazba.jpeg) no-repeat center center/cover;
+    width: 25rem;
+    height: 25rem;
+}
+#who .img-sklizen {
+    background: url(../IMG/sklizen.jpg) no-repeat center center/cover;
+    width: 25rem;
+    height: 25rem;
+}
+#who .img-pokrm {
+    background: url(../IMG/pokrmy.png) no-repeat center center/cover;
+    width: 25rem;
+    height: 25rem;
+}
