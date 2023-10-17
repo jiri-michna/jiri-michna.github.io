@@ -195,6 +195,8 @@ td {
 }
 #who .img-sazba {
     background: url(../IMG/sazba.jpeg) no-repeat center center/cover;
+    width: 25rem;
+    height: 25rem;
 }
 #who .img-sklizen {
     background: url(../IMG/sklizen.jpg) no-repeat center center/cover;
