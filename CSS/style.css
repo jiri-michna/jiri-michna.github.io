@@ -35,52 +35,7 @@ td {
 .dve_odsazeni {
         padding-left: 40px;
         margin: 0 0 0 0;
-    }        
-
-.nav {
-    position: sticky;
-    top: 0;
-    background-color: #ffd450;
-    width: 100vw;
-    max-width: 100%;
-}
-#navbar a{
-    color: black;
-    text-decoration: none;
-}
-#navbar {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-right: 15px;
-}
-#navbar ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-}
-#navbar ul li a {
-    padding: 0.25rem;
-    margin: 0.25rem;
-}
-.titles {
-    text-align: left;
-    margin: 0;
-    width: 200px;
-    margin: 10px 0 0 10px;
-}
-#navbar a:hover {
-    border-radius: 3px;
-    background-color: #a1785d;
-}
-@media only screen and (max-width: 700px) {
-    #navbar ul {
-        margin-top: 1rem;
-    }
-    #navbar .titles {
-        max-width: fit-content;
-    }
-}
+    }          
 #showcase {
     background: #333 url(../IMG/showcase.jpg) no-repeat center center/cover;
     height: 100vh;
@@ -122,7 +77,7 @@ td {
     padding: 0 2rem;
     overflow: hidden;
 }
-.container .text-primary {
+.container .text-gren {
     color: #45ae0d;
 }
 .font-green {
@@ -193,16 +148,6 @@ td {
 #who div {
     flex: 1;
 }
-#who .img-sazba {
-    background: url(../IMG/sazba.webp) no-repeat center center/contain;
-    
-}
-#who .img-sklizen {
-    background: url(../IMG/sklizen.jpg) no-repeat center center/contain;
-}
-#who .img-pokrm {
-    background: url(../IMG/pokrmy.png) no-repeat center center/contain;
-}
 #who .who-text {
     display: flex;
 }
@@ -214,4 +159,10 @@ td {
 }
 .tabulka {
     display: grid;
+}
+.navbar-nav > li > .dropdown-menu { 
+    background-color: #ffd450; 
+}
+.bg-prim {
+    background-color: #ffd450;
 }

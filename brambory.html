@@ -6,23 +6,41 @@
     <title>Rané brambory</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
 </head>
 <body>
-    <div class="nav">
-        <nav id="navbar">
-                <h2 class="titles">Rané brambory</h2>
-                <ul>
-                    <li>
-                        <a class="navhref" href="index.html">
-                        <i class="fa-solid fa-house"></i> 
-                        </a>
+    <nav class="navbar navbar-expand-lg bg-prim">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Rané Brambory</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Hlavní</a>
                     </li>
-                    <li>
-                        <a class="navhref" href="brambory.html">Brambory</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Brambory
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="brambory.html">Brambory</a></li>
+                            <li><a class="dropdown-item" href="#">Sklizeň</a></li>
+                            <li><a class="dropdown-item" href="#">Pokrmy z brambor</a></li>
+                            <li><a class="dropdown-item" href="#">Sazba</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Soon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Soon</a>
                     </li>
                 </ul>
-        </nav>
-    </div>
+          </div>
+        </div>
+    </nav>
 
     <div id="showcase">
         <div class="showcase-content">
@@ -33,7 +51,7 @@
     </div>
         <section id="what">
             <div class="container">
-                <h2 class="m-heading text-center">Dozvíte <span class="text-primary">se</span></h2>
+                <h2 class="m-heading text-center">Dozvíte <span class="text-gren">se</span></h2>
                 <div class="items">
                     <div class="item">
                         <span class="font-green"><i class="fa-solid fa-seedling"></i></span>
@@ -51,34 +69,40 @@
             </div>
         </section>
         <section id="who">
-            <div class="img-sazba"></div>
-            <div class="who-text bg-dark p-2">
-                <h3>Sazba</h3>
-                <ul class="list">
-                    <li>Pro velmi rané sklizně brambor je nutné sázet v termínu od 20. do 31. března.</li>
-                    <li>Pozdější termín sázení nemůže konkurovat velmi raným sklizním. Existuje názor, že sadbě je lépe na lísce v nakličovně než ve studené zemi.</li>
-                    <li>Podle zkušeností ÚKZÚZ (v písčitých půdách), ale brzy zasázená hlíza koření a v pozdějších stadiích má velký náskok v růstu.</li>
-                </ul>
-            </div>
-            <!--
-            <div class="img-sklizen"></div>
-            <div class="who-text2 bg-dark p-2">   
-                <h3>Sklizeň</h3>
-                <ul class="list">
-                    <li>Sklizeň raných brambor probíhá v době, kdy hlízy pod trsem dosáhnou konzumní velikosti a to nejméně 28 mm.</li>
-                    <li>První termín sklizně začíná na počátku června, kdy se nejdříve začíná sklízet při výnosu 7–8 tun, nejčastěji však připadá 10 tun na sklizeň brambor z jednoho hektaru.</li>
-                    <li>Důležitým faktorem v době sklizně brambor je kvalita hlíz, které mají být po uvaření chutné a ne příliš vodnaté.</li>
-                    <li>Sklizeň probíhá dvěma způsoby. Ručním sběrem za vyorávačem a přímou sklizní kombinovaným sklízečem.</li>
-                </ul>
-            </div>
-            
-            <div class="img-pokrm"></div>
-            <div class="who-text3 bg-dark p-2">
-                <h3>Pokrmy z brambor</h3>
-                <ul class="list">
-                    <li>Ajiaco, Boxty, Bramboračka, Bramborák, Bramborová kaše, Bramborová placka, Bramborový knedlík, Bramborový salát, Brambůrky, Cepelíny, Halušky, Hranolky, Chlupaté knedlíky, Jabkanec, Janssonovo pokušení, Kontrabáš, Kulajda, Lokše, Papas arrugadas, Poutine, Rösti, Rumfordská polévka, Salát Olivier, Škubánky, Trinxat</li>
-                </ul>
-            </div>   -->     
+            <div class="card-group">
+                <div class="card">
+                  <img src="./IMG/sklizen.jpg" class="card-img-top" alt="skilzen">
+                  <div class="card-body">
+                    <h5 class="card-title">Sklizeň</h5>
+                    <ul class="card-text">
+                        <li>Sklizeň raných brambor probíhá v době, kdy hlízy pod trsem dosáhnou konzumní velikosti a to nejméně 28 mm.</li>
+                        <li>První termín sklizně začíná na počátku června, kdy se nejdříve začíná sklízet při výnosu 7–8 tun, nejčastěji však připadá 10 tun na sklizeň brambor z jednoho hektaru.</li>
+                        <li>Důležitým faktorem v době sklizně brambor je kvalita hlíz, které mají být po uvaření chutné a ne příliš vodnaté.</li>
+                        <li>Sklizeň probíhá dvěma způsoby. Ručním sběrem za vyorávačem a přímou sklizní kombinovaným sklízečem.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./IMG/pokrmy.png" class="card-img-top" alt="pokrmy">
+                  <div class="card-body">
+                    <h5 class="card-title">Pokrmy</h5>
+                    <ul class="card-text">
+                        <li>Ajiaco, Boxty, Bramboračka, Bramborák, Bramborová kaše, Bramborová placka, Bramborový knedlík, Bramborový salát, Brambůrky, Cepelíny, Halušky, Hranolky, Chlupaté knedlíky, Jabkanec, Janssonovo pokušení, Kontrabáš, Kulajda, Lokše, Papas arrugadas, Poutine, Rösti, Rumfordská polévka, Salát Olivier, Škubánky, Trinxat</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./IMG/sazba.webp" class="card-img-top" alt="sazba">
+                  <div class="card-body">
+                    <h5 class="card-title">Sazba</h5>
+                    <ul class="card-text">
+                        <li>Pro velmi rané sklizně brambor je nutné sázet v termínu od 20. do 31. března.</li>
+                        <li>Pozdější termín sázení nemůže konkurovat velmi raným sklizním. Existuje názor, že sadbě je lépe na lísce v nakličovně než ve studené zemi.</li>
+                        <li>Podle zkušeností ÚKZÚZ (v písčitých půdách), ale brzy zasázená hlíza koření a v pozdějších stadiích má velký náskok v růstu.</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>    
             
         </section>
         <div class="tabulka">
@@ -401,10 +425,12 @@
                 </tbody>
             </table>
         </div>    
-    <footer id="main-footer" class="bg-dark text-center py-1">
+    <footer id="main-footer" class="bg-light text-center py-1">
         <div class="container">
             <p>Brambor. Potato.</p>
         </div>
     </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
