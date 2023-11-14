@@ -166,3 +166,6 @@ td {
 .bg-prim {
     background-color: #ffd450;
 }
+.card-img-top {
+    max-height: 210px;
+}
