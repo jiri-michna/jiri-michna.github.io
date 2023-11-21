@@ -169,3 +169,6 @@ td {
 .card-img-top {
     max-height: 210px;
 }
+.mw {
+    min-width: 150px;
+}
