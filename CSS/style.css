@@ -40,7 +40,7 @@ td {
 }
 #showcase .showcase-content {
     display: flex;
-    flex-direction: column;
+    flex-direction:  column;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -90,16 +90,16 @@ td {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
-#what .items {
+#about .items {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
 }
-#what .item {
+#about .item {
     text-align: center;
     padding: 1rem;
 } 
-#what .items .item i {
+#about .items .item i {
     background: #ffd450;
     padding: 1rem;
     border-radius: 50%;
