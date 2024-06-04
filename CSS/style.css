@@ -2,13 +2,17 @@ body{
     margin: 0;
 }
 table, th, td {
-    border: 1px solid black;
+    border: 1px ridge black;
     border-collapse: collapse;
     padding: 5px;
     margin: 20px auto;
-    max-width: 400px;
-    
+    border-style: dotted;
     }
+
+table tr  {
+    text-align: center;
+}
+
 th {
         background-color: #ffae6a;
         color: #633720;
@@ -154,8 +158,9 @@ td {
 #who .who-text3 {
     display: flex;
 }
-.tabulka {
-    display: grid;
+.containment {
+    width: fit-content;
+    margin: auto;
 }
 .navbar-nav > li > .dropdown-menu { 
     background-color: #ffd450; 
